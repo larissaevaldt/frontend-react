@@ -1,8 +1,13 @@
+# React Frontend connecting to the SpringBoot CRUD application using JWT Authentication
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, first run run:
+
+### `npm install`
+
+To start the application run:
 
 ### `npm start`
 
@@ -11,6 +16,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+### Logging In
+
+You can sign up and log in with the newly created user or use
+
+```
+user: admin
+pass: letmein
+```
+to test the delete employee functionality
 
 ### `npm test`
 
